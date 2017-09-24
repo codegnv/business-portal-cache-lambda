@@ -34,5 +34,5 @@ The lambda must be given write permissions to the desired location on S3.
 
 ## Modification
 
-To edit which files are cached or under what names, edit the URLS_TO_CACHE variable in 
+To edit which files are cached or under what names, edit the `URLS_TO_CACHE` variable in 
 `business_portal_cache_lambda.py`.
