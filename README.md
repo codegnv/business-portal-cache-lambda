@@ -28,9 +28,10 @@ The script can also be run manually with
 
 This requires the `S3_BUCKET` and `S3_PREFIX` environment variables to be set.
 
-`S3_BUCKET`: The bucket on S3 to use. `S3_PREFIX`: Prefix to prepend to files
-when saving to the bucket. Prefix and filename will be joined with "/". If
-empty, the file will be saved to the root of the bucket.
+`S3_BUCKET`: The bucket on S3 to use.  
+`S3_PREFIX`: Prefix to prepend to files when saving to the bucket. Prefix and
+filename will be joined with "/". If empty, the file will be saved to the root
+of the bucket.
 
 The lambda must be given write permissions to the desired location on S3.
 
